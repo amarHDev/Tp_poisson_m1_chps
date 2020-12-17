@@ -11,7 +11,7 @@ function [L,U] =factorisation(A)
     
     for j=2:n
         for i=j:n
-            res=0.0;
+            RES=0.0;
             
             for k= 1:(j-1)
                 RES=RES+L(i,k)*U(k,j);
