@@ -1,6 +1,6 @@
 s = 100;
 rand("seed");
-xdata = [10:10:100];
+xdata = [10:10:1000];
 for n= xdata
     
     i=n/10;
